@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | ZERO_BITE</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>ZERO_BITE 🌱</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Join ZERO_BITE</h2>
+
+            <p>Choose how you want to make a difference.</p>
+
+            <div class="role-options">
+                <a href="/register/restaurant" class="btn">
+                    Register as Restaurant
+                </a>
+
+                <a href="/register/ngo" class="btn">
+                    Register as NGO
+                </a>
+            </div>
+
+            <p style="margin-top: 25px;">
+                Already registered?
+                <a href="/login">Login</a>
+            </p>
+
+            <p><a href="/">← Back to Home</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 ZERO_BITE | Saving Food, Serving Humanity</p>
+    </footer>
+
+</body>
+</html>
